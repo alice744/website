@@ -1,0 +1,53 @@
+body{
+  font-family: URW Chancery L, cursive;
+  color: #000000;
+  background: url(img/fon4.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+img{
+  text-align: center;
+}
+h1{
+  color: red;
+}
+.page{
+  font-family: URW Chancery L, cursive;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  color: #4B0082;
+  white-space: pre-wrap;
+}
+nav li{
+  display: inline-block;
+  padding: 20px;
+}
+footer li{
+  display: inline-block;
+  padding: 10px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+main li{
+  background:    #78d6df;
+  background:    linear-gradient(#78d6df, #5c52dc);
+  border-radius: 5px;
+  padding:       20px;
+  width: 200px;
+  margin: 30px;
+  margin-left: 10%;
+  color:         #ffffff;
+  font:          normal bold 20px/1 URW Chancery L,  cursive;
+  text-align:    center;
+  text-shadow:   1px 1px #000000;
+}
+.center{
+  margin-left: 30%;
+}
