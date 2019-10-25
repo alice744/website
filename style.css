@@ -12,6 +12,9 @@ img{
 h1{
   color: red;
 }
+a{
+  text-decoration: none;
+}
 .page{
   font-family: URW Chancery L, cursive;
   font-size: 20px;
@@ -21,7 +24,11 @@ h1{
   vertical-align: middle;
   color: #4B0082;
   white-space: pre-wrap;
+  border-left: 1000px;
+  padding-left: 1100px;
+  padding-right: 40px;
 }
+
 nav li{
   display: inline-block;
   padding: 20px;
@@ -36,18 +43,25 @@ footer{
   bottom: 0;
 }
 main li{
-  background:    #78d6df;
-  background:    linear-gradient(#78d6df, #5c52dc);
-  border-radius: 5px;
-  padding:       20px;
+  background:    #e86ed0;
+  background:    linear-gradient(#b1e8ed, #edb5f5);
+  border-radius: 25px;
+  padding: 20px;
   width: 200px;
   margin: 30px;
-  margin-left: 10%;
+  margin-left: 20%;
   color:         #ffffff;
   font:          normal bold 20px/1 URW Chancery L,  cursive;
-  text-align:    center;
+  text-align:    justify;
   text-shadow:   1px 1px #000000;
 }
 .center{
-  margin-left: 30%;
+  margin-left: 1000px;
+  text-decoration: none;
+}
+.right{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
 }

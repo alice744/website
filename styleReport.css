@@ -1,0 +1,36 @@
+body
+{
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px; /*шрифт основного текста*/
+  line-height: 20px; /*межстрочный интервал*/
+  color: #000000;
+}
+
+.container
+{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.class1
+{
+   font-family: "Times New Roman";
+   font-size: 25px;
+   text-align: center;
+}
+
+.class2
+{
+   font-family: "Times New Roman";
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 60px; /*отступ после класса*/
+}
+
+h2
+{
+   font-family:"Candara";
+  padding-bottom: 12px;
+  border-bottom: 1px dotted #000000;
+}
