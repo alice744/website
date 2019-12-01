@@ -4,7 +4,7 @@ body{
   background: url(img/fon4.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 img{
   text-align: center;
